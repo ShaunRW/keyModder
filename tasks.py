@@ -48,15 +48,3 @@ class tapkey:
 			cmd = cmd + "," + self.attrib['modifier']
 		cmd = cmd + ")"
 		return cmd
-
-
-class xmlthingy:
-
-	def __init__(self):
-		self.tag = "tapkey"
-		self.attrib = { "key": "55", "modifier": "Command", "index": "1" }
-
-if __name__ == '__main__':
-    t = Tags()
-    task = xmlthingy()
-    t.parse(task)
