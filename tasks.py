@@ -1,3 +1,5 @@
+#! /usr/bin/python2.6
+
 # TASKS
 #-----------------------------------------#
 # Filename: 		tasks.py
