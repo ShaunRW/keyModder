@@ -4,17 +4,17 @@
 #-----------------------------------------#
 # Filename: 		tasks.py
 # Belongs To: 		keyModder
-# Usage: 			from tasks import Tags
-# Description:		Used to define XML elements and their function.
+# Usage: 			from tasks import Actions
+# Description:		Used to define action XML elements and their function.
 # Created: 			19 Nov 2014
-# Modified: 		19 Nov 2014 
+# Modified: 		05 Dec 2014 
 # Author: 			Shaun Wilesmith
 # Notes:
 #
 #
 #-----------------------------------------#
 
-class Tags:
+class Actions:
 
 	def __init__(self):
 		self.tags = {
